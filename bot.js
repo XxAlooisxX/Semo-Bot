@@ -235,4 +235,4 @@ client.on('message', function(message) {
 
 
 
-client.login(process.env.BOT_TOKEN);
+client.login(NDcyODMxNDQ4NTcxOTY5NTM3.Dj5Gbg.KLzsTExpsWJOiZTJP-xvqPWDV-g);
