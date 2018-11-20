@@ -5,7 +5,7 @@ x5bzteam.on("ready", () => {
     onstart();
 });
 x5bz = "514459628751421458";
-nick = "Arrio Discord";
+nick = "Arrio_";
 function onstart(){
     var v1 = nick.split('');
     var counter;
