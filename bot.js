@@ -22,48 +22,48 @@ client.on("message", message => {
 	  
 
         **__General orders__**
-
-『embed / يكرر كلامك بمبيد』
-『server / معلومات عن السيرفر』
-『animal / يعطيك صور حيوانات』
-『image / يعرض صوره السيرفر』
-『avatar / يعرض صورتك او صوره شخص』
-『dt / يعرض الوقت في الامارات و مكه المكرمه و مصر و التاريخ』
-
+**
+ embed = يكرر كلامك بمبيد
+ server = معلومات عن السيرفر
+ animal = يعطيك صور حيوانات
+ image = يعرض صوره السيرفر
+ avatar = يعرض صورتك او صوره شخص
+ dt = يعرض الوقت في الامارات و مكه المكرمه و مصر و التاريخ
+**
 
         **__Bot orders__**
-
-『ping / يعرض لك سرعه اتصال البوت』
-『uptime / يعرض لك صار للبوت كم شغال』
-『support / سيرفر الدعم القني و المساعده』
-『invite / اضافه البوت』
-『bot / معلومات عن البوت』
-
+**
+ ping = يعرض لك سرعه اتصال البوت
+ uptime = يعرض لك صار للبوت كم شغال
+ support = سيرفر الدعم القني و المساعده
+ invite = اضافه البوت
+ bot = معلومات عن البوت
+**
 
         **__Administrative Orders__**
-
-『kick / كيك』
-『ban / بان』
-『mute /ميوت』
-『unmute /فك الميوت』
-『mutechannel /قفل الشات』
-『unmutechannel /فتح الشات』
-『ct /انشاء روم كتابي』
-『cv /انشاء روم صوتي』
-『bc /برودكاست』
+**
+ kick = كيك
+ ban = بان
+ mute = ميوت
+ unmute = فك الميوت
+ mutechannel = قفل الشات
+ unmutechannel = فتح الشات
+ ct = انشاء روم كتابي
+ cv = انشاء روم صوتي
+ bc = برودكاست
 **
 
 
         **__Games orders__**
-     
-『لعبه صراحه / صراحه』
-『لعبه مريم / مريم』
-『لعبه خواطر / خواطر』
-『يعطيك شعر عن الحب / حب』
-『يخيرك بين شي وشي / لو خيروك』
-『يعطيك عقاب و لازم تنفذه / عقاب』
-『لعبه اسئله / كت تويت』
-
+**     
+ لعبه صراحة = صراحه
+ لعبه مريم = مريم
+ لعبه خواطر = خواطر  
+ يعطيك شعر عن الحب = حب
+ يخيرك بين شي وشي = لو خيروك
+ يعطيك عقاب و لازم تنفذه = عقاب
+ لعبه اسئله = كت تويت
+**
    
         
 `)
@@ -217,7 +217,7 @@ const Za7f = [
   var embed = new Discord.RichEmbed()
   .setColor('RANDOM')
    .setThumbnail(message.author.avatarURL) 
- .addField('WOlF BOT' ,
+ .addField('Dollar Shop.™' ,
   `${Za7f[Math.floor(Math.random() * Za7f.length)]}`)
   message.channel.sendEmbed(embed);
   console.log('[38ab] Send By: ' + message.author.username)
@@ -390,7 +390,7 @@ const zead = [
   .setTitle("لعبة مريم ..")
   .setColor('RANDOM')
   .setDescription(`${zead[Math.floor(Math.random() * zead.length)]}`)
-  .setImage("https://www.npa-ar.com/wp-content/uploads/2017/08/%D9%84%D8%B9%D8%A8%D8%A9-%D9%85%D8%B1%D9%8A%D9%85-300x200.jpg")
+  .setImage("https://cdn.al-ain.com/images/2017/8/07/80-185022-mariam-game-raises-concerns-in-my-twitter_700x400.png")
    message.channel.sendEmbed(mariam);
    message.react("??")
   }
