@@ -12498,4 +12498,4 @@ message.member.addRole(message.guild.roles.find("name", "100"));
 
 
 
-client.login(process.env.BOT_TOKEN);
+client.login(NjI0ODQ1NjY3MDU5MjM2ODg0.XYYkDA.aX9RihzW9-pG94wPls2a8za4nf0);
